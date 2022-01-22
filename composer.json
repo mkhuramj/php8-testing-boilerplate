@@ -1,0 +1,25 @@
+{
+    "name": "khuram/tdd-setup-php",
+    "description": "A ready to use TDD Setup for PHP 8.0 using docker.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Khuram Javed",
+            "email": "m.khuramj@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Khuram\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
